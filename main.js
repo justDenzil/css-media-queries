@@ -3,5 +3,7 @@ window.onload = screen;
 
 function screen() {
     myWidth = window.innerWidth;
-    document.getElementById('size').innerHTML = "Width : " ;
+    myHeight = window.innerHeight;
+    document.getElementById('sizeWidth').innerHTML = "Width : " + myWidth + "px" ;
+    document.getElementById('sizeHeight').innerHTML = "Height : " + myHeight + "px" ;
 }

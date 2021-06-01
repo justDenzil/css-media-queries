@@ -8,3 +8,27 @@
         font-size: 36px;
     }
 }
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#sizeWidth {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#sizeHeight {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
