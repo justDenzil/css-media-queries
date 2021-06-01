@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,6 +24,8 @@
     top: 60%;
     left: 50%;
     transform: translateX(-50%);
+    font-weight: 500;
+    font-family: 'Poppins';
 
 }
 
@@ -30,5 +34,23 @@
     top: 65%;
     left: 50%;
     transform: translateX(-50%);
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+@media (max-width: 768px) {
+
+    #sizeWidth {
+        font-size: 21px;
+    }
+    
+    #sizeHeight {
+        font-size: 21px;
+    }
+
+    .text h1 {
+        font-size: 45px;
+    }
+    
 
 }

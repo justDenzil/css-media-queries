@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -29,6 +30,8 @@
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  font-weight: 500;
+  font-family: 'Poppins';
 }
 
 #sizeHeight {
@@ -37,5 +40,19 @@
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+
+@media (max-width: 768px) {
+  #sizeWidth {
+    font-size: 21px;
+  }
+  #sizeHeight {
+    font-size: 21px;
+  }
+  .text h1 {
+    font-size: 45px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
