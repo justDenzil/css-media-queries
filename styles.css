@@ -26,8 +26,9 @@
 
 #sizeWidth {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
+  padding-top: 35px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   font-weight: 500;
@@ -36,8 +37,9 @@
 
 #sizeHeight {
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
+  padding-top: 12px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   font-weight: 500;
