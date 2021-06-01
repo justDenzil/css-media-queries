@@ -44,7 +44,7 @@
   font-family: 'Poppins';
 }
 
-@media (max-width: 500px) {
+@media (max-width: 382px) {
   #sizeWidth {
     font-size: 21px;
   }
